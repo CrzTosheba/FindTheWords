@@ -11,7 +11,7 @@ public class MostRepeatedWord
         String line;
         var words = new Dictionary<string,int >(); //делаем словарь
         //откроем файл  
-        System.IO.StreamReader file = new StreamReader(@"C:\CFiles\Text2.txt");
+        StreamReader file = new StreamReader(@"C:\CFiles\Text2.txt");
 
         //читаем строки 
         while ((line = file.ReadLine()) != null)
